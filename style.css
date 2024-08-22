@@ -1,0 +1,78 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f4f8; 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.form-container {
+  background-color: #ffffff; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #333; 
+  margin-bottom:1em;
+}
+
+label:not(.male,.female) {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+.male, .female{
+  text-align: left;
+  color: #555;
+}
+.gender-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gender-container label {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #007bff; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
